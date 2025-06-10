@@ -1,7 +1,7 @@
 # C-Programming-Lecture
 # 변수
 ## 1. Scope 
-- 지역변수
+- 지역변수  
 Scope: 선언된 블록  
 Lifetime: 블록이 종료되면 소멸
 
