@@ -4,14 +4,14 @@
 - 지역변수  
     - Scope: 선언된 블록  
     - Lifetime: 블록이 종료되면 소멸
-
-    ```c
-    int func(int param);    // param같은 매개변수도 지역변수의 일종
-
-    int main(void){
-        int temp;   // 초기화되지 않았으므로 쓰레기값을 가짐
-    }
-    ```
+    
+        ```c
+        int func(int param);    // param같은 매개변수도 지역변수의 일종
+    
+        int main(void){
+            int temp;   // 초기화되지 않았으므로 쓰레기값을 가짐
+        }
+        ```
 
 - 전역변수
     - Scope: 소스파일 전체(함수 밖에 선언)
