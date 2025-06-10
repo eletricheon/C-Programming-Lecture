@@ -2,8 +2,8 @@
 # 변수
 ## 1. Scope 
 - 지역변수  
-Scope: 선언된 블록  
-Lifetime: 블록이 종료되면 소멸
+    - Scope: 선언된 블록  
+    - Lifetime: 블록이 종료되면 소멸
 
     ```c
     int func(int param);    // param같은 매개변수도 지역변수의 일종
